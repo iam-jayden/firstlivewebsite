@@ -1,0 +1,27 @@
+*{
+	background:orangered;
+margin:0;
+padding:0;
+}
+h1{
+	color:white;
+	text-transform:uppercase;
+	font-weight: bolder;
+	padding:10px;
+}
+h2{
+	color:white;
+	margin-top:8%;
+	font-size:150px;
+	font-weight: bolder;
+padding: 2px;
+text transform: uppercase;
+text-allign: center;
+justify-content:center;
+animation: disco 2s infinite;
+color:rgba(0,0,0,0);
+}
+@keyframes disco{
+	0%,100%{text-shadow: 4px 4px red;  }
+	50%{text-shadow: 4px 4px blue;  }
+}
